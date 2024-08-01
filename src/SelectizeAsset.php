@@ -19,13 +19,13 @@ class SelectizeAsset extends AssetBundle
     public $sourcePath = '@bower/selectize/dist';
 
     public $css = [
-        'css/selectize.bootstrap3.css',
+        'css/selectize.bootstrap5.css',
     ];
     public $js = [
         'js/standalone/selectize.js',
     ];
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap5\BootstrapAsset',
         'yii\web\JqueryAsset',
     ];
 }
